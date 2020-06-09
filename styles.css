@@ -1,0 +1,40 @@
+body {
+    background: url("images/bereft.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#title {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 60px;
+}
+
+nav a {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: rgb(209, 88, 19) !important;
+}
+
+.btn-primary-outline {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: ridge thin black;
+    padding: 25px;
+    box-shadow: none;
+    color: white;
+    font-size: 40px;
+    text-shadow: -1px 0.5px 0.5px #000, 0.5px 0.5px 0.5px #000, 0.5px -1px 0 #000, -1px -1px 0 #000;
+    ;
+}
+
+#learnmore {
+    height: 100%;
+}
+
+#learnmore a {
+    margin: 0 auto;
+}
